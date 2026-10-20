@@ -115,7 +115,8 @@ img{max-width:100%;height:auto;display:block}
 .band-navy p{color:#dbe7f6}
 .mail{font:600 1.4rem Montserrat,sans-serif;word-break:break-all}
 .about-photo{margin:0}
-.about-photo img{border-radius:20px;border:4px solid rgba(255,255,255,.25);max-height:440px;margin-left:auto;object-fit:cover}
+.about-photo img{border-radius:20px;border:4px solid rgba(255,255,255,.25);width:100%;max-width:380px;aspect-ratio:3/4;margin-left:auto;object-fit:cover;object-position:50% 15%}
+.quality{margin:0 0 24px}
 .site-footer{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;padding:22px 24px;font-size:.85rem;color:var(--muted);background:var(--bg);border-top:1px solid var(--line)}
 
 @media (max-width:980px){
